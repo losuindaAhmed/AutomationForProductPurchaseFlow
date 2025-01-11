@@ -1,0 +1,55 @@
+## AutomationExercise Demo Test Automation (java-selenium) 
+## Project Overview
+This project automates login scenarios for "AutomationExercise" website using Data-Driven Testing and automates the entire product purchase lifecycle,
+including adding products to the cart, proceeding to checkout, entering shipping and billing details, and completing the order.
+## 🚀 Getting Started
+
+### 🚧 Prerequisites
+Before you can run this project, you must have the following software installed on your computer:
+
+- Java Development Kit (JDK) version 11 or later
+- Apache Maven
+- Google Chrome web browser
+- Eclipse IDE.
+
+### 🔗 Dependencies
+
+This project uses the following dependencies:
+
+- Selenium Java version 4.13.0
+- Webdrivermanager version 5.5.3
+- TestNG version 7.7.0
+- Apache POI version 5.3.0
+- maven-surefire-plugin version 3.4.0
+- maven-compiler-plugin version 3.13.0
+- extentreports 5.1.2
+  
+## Installation
+### Clone
+
+- Clone this repository to your local machine using the command below:
+```
+	$ git clone https://github.com/losuindaAhmed/AutomationForProductPurchaseFlow.git
+```
+### 🌐 Application under test
+**AutomationExercise Demo Website**:https://automationexercise.com/
+
+ ### 👨🏼‍🔬Tests 
+ The task is divided into 3 parts:
+ Part 1: Test Login
+- **Objective**: Verify that a valid user can successfully log into the Appliction by utilizing pre-generated user credentials provided in the test data file (Data-Driven Approach).
+- Part 2: Invalid Login Scenarios
+- **Objective**: Test various invalid login scenarios.
+- Part 3: Both Fields Empty
+  
+  ### Execution
+
+> Access project root
+
+	$ cd /directory/OrangeHRMTask
+
+ 
+ > Execute the command to run all tests in the project
+
+```
+	$ mvn clean test
