@@ -36,8 +36,8 @@ This project uses the following dependencies:
 
  ### 👨🏼‍🔬Tests 
  The task is divided into 5 parts:
- -Part 1: Test Login
-- **Objective**: Verify that a valid user can successfully log into the Appliction by utilizing pre-generated
+ - Part 1: Test Login
+ - **Objective**: Verify that a valid user can successfully log into the Appliction by utilizing pre-generated
 user credentials provided in the test data file (Data-Driven Approach).
  - Part 2: Select a Product and Add to Cart
 - **Objective**: Select any product from the product listing page and add it to the cart.
@@ -52,10 +52,11 @@ user credentials provided in the test data file (Data-Driven Approach).
 
 > Access project root
 
-	$ cd /directory/OrangeHRMTask
+	$ cd /directory/AutomationForProductPurchaseFlow
 
  
  > Execute the command to run all tests in the project
 
 ```
 	$ mvn clean test
+
