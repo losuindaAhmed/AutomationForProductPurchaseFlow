@@ -1,4 +1,4 @@
-## AutomationExercise Demo Test Automation (java-selenium) 
+## AutomationExercise Demo Test Automation (Java-Selenium) 
 ## Project Overview
 This project automates login scenarios for "AutomationExercise" website using Data-Driven Testing and automates the entire product purchase lifecycle,
 including adding products to the cart, proceeding to checkout, entering shipping and billing details, and completing the order.
