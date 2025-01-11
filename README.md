@@ -37,10 +37,16 @@ This project uses the following dependencies:
  ### 👨🏼‍🔬Tests 
  The task is divided into 3 parts:
  Part 1: Test Login
-- **Objective**: Verify that a valid user can successfully log into the Appliction by utilizing pre-generated user credentials provided in the test data file (Data-Driven Approach).
-- Part 2: Invalid Login Scenarios
-- **Objective**: Test various invalid login scenarios.
-- Part 3: Both Fields Empty
+- **Objective**: Verify that a valid user can successfully log into the Appliction by utilizing pre-generated
+-user credentials provided in the test data file (Data-Driven Approach).
+Part 2: Select a Product and Add to Cart
+- **Objective**: Select any product from the product listing page and add it to the cart.
+-  Part 3: Proceed to Checkout
+- **Objective**: Navigate to the cart page and proceed to the checkout process
+- Part 4: Enter Shipping and Payment Information
+- **Objective**:Input shipping and All payment details
+ -  Part 5: Complete the Order
+- **Objective** :Finalize the order by submitting the confirmation
   
   ### Execution
 
